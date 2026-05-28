@@ -1,4 +1,4 @@
-package pageObject;
+package com.praktikum.page.object;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
@@ -6,8 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static config.PageConfig.LOGIN_PAGE_URL;
-import static config.PageConfig.REGISTER_PAGE_URL;
+import static com.praktikum.config.PageConfig.LOGIN_PAGE_URL;
+import static com.praktikum.config.PageConfig.REGISTER_PAGE_URL;
 
 public class RegisterPage {
     private WebDriver driver;

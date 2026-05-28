@@ -1,6 +1,6 @@
-import api.UserApiRequests;
-import api.UserInfo;
-import api.UserLoginData;
+import com.praktikum.api.UserApiRequests;
+import com.praktikum.api.UserInfo;
+import com.praktikum.api.UserLoginData;
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
 import io.qameta.allure.junit4.DisplayName;
@@ -9,7 +9,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import static config.Constants.*;
+import static com.praktikum.config.Constants.*;
+
 @Feature("Тесты логина пользователя")
 public class LoginTests extends BaseTest {
     private UserApiRequests apiRequests;

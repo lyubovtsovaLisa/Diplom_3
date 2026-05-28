@@ -1,10 +1,10 @@
-package pageObject;
+package com.praktikum.page.object;
 
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import static config.PageConfig.FORGOT_PASS_PAGE_URL;
+import static com.praktikum.config.PageConfig.FORGOT_PASS_PAGE_URL;
 
 public class ForgetPassPage {
     private WebDriver driver;

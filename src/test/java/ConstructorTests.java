@@ -22,7 +22,7 @@ public class ConstructorTests extends BaseTest{
     public void activateFillingTabTest() {
         mainPage.openPage();
         mainPage.clickOnFillingTab();
-        Assert.assertTrue("Страница переход на вкладку Начинки не выполнен!",
+        Assert.assertTrue("Переход на вкладку Начинки не выполнен!",
                 mainPage.isFillingTabActive());
 
     }
@@ -33,7 +33,7 @@ public class ConstructorTests extends BaseTest{
         mainPage.openPage();
         mainPage.clickOnFillingTab();
         mainPage.clickOnBunTab();
-        Assert.assertTrue("Страница переход на вкладку Булки не выполнен!",
+        Assert.assertTrue("Переход на вкладку Булки не выполнен!",
                 mainPage.isBunTabActive());
 
     }

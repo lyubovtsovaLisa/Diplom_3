@@ -1,5 +1,5 @@
-import api.UserApiRequests;
-import api.UserLoginData;
+import com.praktikum.api.UserApiRequests;
+import com.praktikum.api.UserLoginData;
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
 import io.qameta.allure.junit4.DisplayName;
@@ -7,7 +7,8 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import static config.Constants.*;
+
+import static com.praktikum.config.Constants.*;
 
 
 @Feature("Регистрация пользователя")

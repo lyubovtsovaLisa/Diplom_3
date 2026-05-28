@@ -1,9 +1,8 @@
-package api;
+package com.praktikum.api;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
 
-import static config.Constants.*;
 import static io.restassured.RestAssured.given;
 
 public class UserApiRequests {

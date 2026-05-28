@@ -1,4 +1,4 @@
-package config;
+package com.praktikum.config;
 
 public class PageConfig {
     public static final String MAIN_PAGE_URL = "https://stellarburgers.education-services.ru/";

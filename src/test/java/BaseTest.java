@@ -7,10 +7,10 @@ import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import pageObject.ForgetPassPage;
-import pageObject.LoginPage;
-import pageObject.MainPage;
-import pageObject.RegisterPage;
+import com.praktikum.page.object.ForgetPassPage;
+import com.praktikum.page.object.LoginPage;
+import com.praktikum.page.object.MainPage;
+import com.praktikum.page.object.RegisterPage;
 
 public class BaseTest {
     public WebDriver driver;

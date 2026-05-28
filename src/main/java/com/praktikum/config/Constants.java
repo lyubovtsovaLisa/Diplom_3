@@ -1,4 +1,4 @@
-package config;
+package com.praktikum.config;
 
 public class Constants {
     public static final String LOGIN_USER_ENDPOINT="https://stellarburgers.education-services.ru/api/auth/login";

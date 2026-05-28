@@ -1,15 +1,17 @@
-package api;
+package com.praktikum.api;
 
-public class UserLoginData {
+public class UserInfo {
     private String email;
     private String password;
+    private String name;
 
-    public UserLoginData(String email, String password) {
+    public UserInfo(String email, String password, String name) {
         this.email = email;
         this.password = password;
+        this.name = name;
     }
 
-    public UserLoginData() {
+    public UserInfo() {
     }
 
     public String getEmail() {
@@ -26,5 +28,13 @@ public class UserLoginData {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
